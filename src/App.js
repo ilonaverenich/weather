@@ -1,13 +1,11 @@
 import {useDispatch, useSelector} from 'react-redux';
 import { axiosData } from './redux/actions/getDataAction';
 import { useEffect,useState } from 'react';
-import axios from 'axios';
-import Geo from './components/Geo';
+import { Button, Modal } from 'antd';
 
 
 function App() {
     const [value,setValue] = useState('');
-
 
     const dispatch = useDispatch();
     const store = useSelector(store=> store.data);
@@ -36,8 +34,12 @@ function App() {
           }
         } );
         setValue('')
-
+      
     }
+
+
+  
+  
 
   return (
   
@@ -51,9 +53,7 @@ function App() {
                     <div>Введите название страны, погоду которой хотите узнать.</div>
                      <div className='input'>
                      <input value={value} onChange={(e)=>setValue(e.target.value)} type="text" />
-                      <span>
-                        <img width={20} src='https://i.postimg.cc/rFTQL4vx/icons8-16.png' alt="подсказка" />
-                      </span>
+                    
                      </div>
                       <button onClick={()=>getPlace(json)} >Поиск</button>
                   </div>
