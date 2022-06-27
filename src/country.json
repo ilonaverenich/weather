@@ -1,0 +1,104 @@
+[
+    {
+        "id": 630336,
+        "name": "Беларусь",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 28.0,
+            "lat": 53.0
+        }
+    },
+    {
+        "id": 2017370,
+        "name": "Россия",
+        "state": "",
+        "country": "RU",
+        "coord": {
+            "lon": 100.0,
+            "lat": 60.0
+        }
+    },
+    {
+        "id": 690791,
+        "name": "Украина",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 32.0,
+            "lat": 49.0
+        }
+    },
+        {
+        "id": 458258,
+        "name": "Латвия",
+        "state": "",
+        "country": "LV",
+        "coord": {
+            "lon": 25.0,
+            "lat": 57.0
+        }
+    },
+    {
+        "id": 597427,
+        "name": "Литва",
+        "state": "",
+        "country": "LT",
+        "coord": {
+            "lon": 24.0,
+            "lat": 56.0
+        }
+    },
+   
+    {
+        "id": 3175395,
+        "name": "Италия",
+        "state": "",
+        "country": "IT",
+        "coord": {
+            "lon": 12.83333,
+            "lat": 42.833328
+        }
+    },
+    {
+        "id": 2510769,
+        "name": "Испания",
+        "state": "",
+        "country": "ES",
+        "coord": {
+            "lon": -4.0,
+            "lat": 40.0
+        }
+    },
+    {
+        "id": 3017382,
+        "name": "Франция",
+        "state": "",
+        "country": "FR",
+        "coord": {
+            "lon": 2.0,
+            "lat": 46.0
+        }
+    },
+    {
+        "id": 2921044,
+        "name": "Германия",
+        "state": "",
+        "country": "DE",
+        "coord": {
+            "lon": 10.5,
+            "lat": 51.5
+        }
+    },
+    
+    {
+        "id": 298795,
+        "name": "Турция",
+        "state": "",
+        "country": "TR",
+        "coord": {
+            "lon": 34.911549,
+            "lat": 39.05901
+        }
+    }
+]
